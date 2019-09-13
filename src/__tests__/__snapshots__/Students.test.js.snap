@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Students should match the shapshot 1`] = `
+<div
+  className="students-container"
+>
+  <div
+    className="attendance-block"
+  >
+    <div>
+      <div>
+        Threshold Attendance
+      </div>
+      <div
+        className="input-container"
+      >
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            className="inputForm"
+            max="100.00"
+            min="0.00"
+            onChange={[Function]}
+            step="any"
+            type="number"
+            value=""
+          />
+          <button
+            className="button"
+            type="submit"
+          >
+            Apply
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div
+    className="students-nav"
+  >
+    <div>
+      Id
+    </div>
+    <div
+      className="student-name center"
+    >
+      Student
+    </div>
+    <div>
+      Grade
+    </div>
+    <div
+      className="school-name"
+    >
+      School
+    </div>
+    <div>
+      Attendance (%)
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="loader"
+    />
+    <div
+      className="loader_text"
+    >
+      Loading Data...
+    </div>
+  </div>
+</div>
+`;

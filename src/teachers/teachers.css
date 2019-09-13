@@ -1,0 +1,7 @@
+.teachers-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-family: 'Serifa W01 45 Light',Times,Georgia,serif;
+  margin-top: 5rem;
+}

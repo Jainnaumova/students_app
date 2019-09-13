@@ -1,0 +1,27 @@
+.student-card {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px 60px;
+  justify-content: center;
+  font-size: 0.7rem;
+}
+
+.student-card > div:first-of-type {
+  margin-right: 100px;
+}
+
+.block {
+  margin-top: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.sub-title {
+  text-transform: uppercase;
+}
+
+.data {
+  color: gray;
+}

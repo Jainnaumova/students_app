@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import { HashRouter, Route, Switch } from 'react-router-dom';
+import Navbar from './shared/Navbar';
+import Home from './Home';
+import Sidebar from './shared/Sidebar';
+import Students from './students/Students';
+import Teachers from './teachers/Teachers';
+
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <HashRouter>
+      <div>
+        <div className='navbar-container'>
+          <Navbar />
+        </div>
+        <div className='main-container'>
+          <div className='sidebar-container'>
+            <Sidebar />
+          </div>
+          <div className='selection-container'>
+            <Switch>
+              <Route path="/" exact component={ Home } />
+              <Route path="/students" exact component={ Students } />
+              <Route path="/teachers" exact component={ Teachers } />
+            </Switch>
+          </div>
+        </div>
+      </div>
+    </HashRouter>
+  )
 }
 
 export default App;

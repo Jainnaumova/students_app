@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App component correctly 1`] = `
+<div>
+  <div
+    className="navbar-container"
+  >
+    <div
+      className="navbar"
+    >
+      New Visions for Public Schools
+    </div>
+  </div>
+  <div
+    className="main-container"
+  >
+    <div
+      className="sidebar-container"
+    >
+      <div>
+        <div
+          className="selection-item"
+        >
+          <a
+            href="#/"
+            onClick={[Function]}
+          >
+            Home
+          </a>
+        </div>
+        <div
+          className="selection-item"
+        >
+          <a
+            href="#/students"
+            onClick={[Function]}
+          >
+            Students
+          </a>
+        </div>
+        <div
+          className="selection-item"
+        >
+          <a
+            href="#/teachers"
+            onClick={[Function]}
+          >
+            Teachers
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="selection-container"
+    >
+      <div
+        className="items-group"
+      >
+        <div
+          className="item-button"
+          onClick={[Function]}
+        >
+          Students
+        </div>
+        <div
+          className="item-button"
+          onClick={[Function]}
+        >
+          Teachers
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
