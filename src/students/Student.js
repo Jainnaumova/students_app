@@ -8,7 +8,7 @@ export default props => {
       <div className='student-name'>
         {`${student.firstName} ${student.lastName}`}
         <div className='details-container'>
-          <button className='button' onClick={() => props.displayStudentData(student)}>Details...</button>
+          <button className='details-button' onClick={() => props.displayStudentData(student)}>Details...</button>
         </div>
       </div>
       <div>{student.grade}</div>

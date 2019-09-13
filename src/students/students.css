@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-right: 50px;
   margin-bottom: 0.8rem;
 }
 
@@ -122,6 +121,15 @@
   text-decoration: none;
 }
 
-.button:hover {
+.button:hover, .details-button:hover {
   background-color: #005c96;
+}
+
+.details-button {
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #0072bb;
+  padding: 5px;
+  cursor: pointer;
+  text-decoration: none;
 }
