@@ -5,9 +5,7 @@ exports[`renders App component correctly 1`] = `
   <div
     className="navbar-container"
   >
-    <div
-      className="navbar"
-    >
+    <div>
       New Visions for Public Schools
     </div>
   </div>

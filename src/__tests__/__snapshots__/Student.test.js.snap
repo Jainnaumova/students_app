@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Students should match the shapshot 1`] = `
+<div
+  className="student-table"
+>
+  <div>
+    123
+  </div>
+  <div
+    className="student-name"
+  >
+    John Doe
+    <div
+      className="details-container"
+    >
+      <button
+        className="details-button"
+        onClick={[Function]}
+      >
+        Details...
+      </button>
+    </div>
+  </div>
+  <div>
+    CL-101
+  </div>
+  <div
+    className="school-name"
+  >
+    PS52
+  </div>
+  <div>
+    0.94
+  </div>
+</div>
+`;

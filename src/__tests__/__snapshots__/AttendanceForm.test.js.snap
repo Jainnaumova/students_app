@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AttendanceForm should match the shapshot 1`] = `
+<div
+  className="input-container"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="inputForm"
+      max="100.00"
+      min="0.00"
+      onChange={[Function]}
+      step="any"
+      type="number"
+      value=""
+    />
+    <button
+      className="button"
+      type="submit"
+    >
+      Apply
+    </button>
+  </form>
+</div>
+`;
