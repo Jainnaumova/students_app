@@ -25,7 +25,6 @@ class Students extends Component {
       studentToDisplay: null
     }
     this.handleChangeAttendanceValue = this.handleChangeAttendanceValue.bind(this);
-    this.showModal = this.showModal.bind(this);
     this.hideModal = this.hideModal.bind(this);
     this.displayStudentData = this.displayStudentData.bind(this);
   }
@@ -45,10 +44,6 @@ class Students extends Component {
 
   handleChangeAttendanceValue(value) {
     this.setState({ attendanceValue: value });
-  }
-
-  showModal() {
-    this.setState({ studentDetailsModal: true });
   }
 
   hideModal() {
